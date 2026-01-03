@@ -1,0 +1,50 @@
+:root {
+  --vh: 100vh; /* Fallback for browsers that do not support dynamic viewport units */
+}
+
+:root {
+  --light-blue-bg: hsl(212, 45%, 89%); /* Define variable once */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  background-color: var(--light-blue-bg);
+  height: var(--vh);
+  display: grid;
+}
+
+section {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 20rem;
+  max-height: 80vh;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0.05rem 0.1rem hsl(220, 15%, 55%);
+}
+
+img {
+  width: 98%;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  padding: 0.35rem;
+}
+
+p {
+  font-size: 0.8rem;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  padding: 0.25rem;
+}
